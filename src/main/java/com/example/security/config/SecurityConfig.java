@@ -23,8 +23,6 @@ import com.nimbusds.jose.proc.SecurityContext;
 
 import static org.springframework.security.config.Customizer.*;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
